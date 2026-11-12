@@ -5,6 +5,7 @@
 纯 Markdown 工艺文件:不含后端、不收集任何 Key;模型与密钥都在你自己的 Agent 环境里。
 
 - 版本:v2.1.0(2026-11-12)
+- 语言:中文 `SKILL.md` / English `SKILL.en.md`(工艺等价,按 Agent 语言选用)
 - 许可:[CC0 1.0 Universal](LICENSE) —— 提示词与工艺以 CC0 释放,可自由使用、修改、再分发,无需署名
 - 适用:任何能读 Skill 的 coding Agent(Qoder / Claude Code / Codex / Cursor 等)
 
@@ -51,6 +52,10 @@ New-Item -ItemType Directory -Force -Path "$HOME\.qoder\skills\motion-graphics-v
 也可以直接 `git clone` 本仓库,把 `SKILL.md` 放进上述任一目录。
 
 验证:对应路径下 `SKILL.md` 存在;在 Agent 里问「有哪些 skills」应列出 `motion-graphics-video`。
+
+## Languages
+
+The craft ships in two equivalent editions: `SKILL.md` (Chinese) and `SKILL.en.md` (English). Install either, or both; the install prompt tells the Agent which to read.
 
 ## 使用
 
