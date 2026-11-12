@@ -4,7 +4,7 @@
 
 纯 Markdown 工艺文件:不含后端、不收集任何 Key;模型与密钥都在你自己的 Agent 环境里。
 
-- 版本:v2.1.0(2026-11-12)
+- 版本:v3.0.0(2026-11-12)
 - 语言:中文 `SKILL.md` / English `SKILL.en.md`(工艺等价,按 Agent 语言选用)
 - 许可:[CC0 1.0 Universal](LICENSE) —— 提示词与工艺以 CC0 释放,可自由使用、修改、再分发,无需署名
 - 适用:任何能读 Skill 的 coding Agent(Qoder / Claude Code / Codex / Cursor 等)
@@ -85,3 +85,7 @@ Skill 开工前会确认三件事(需求、主模型、TTS 模型,推荐千问�
 ## 贡献
 
 Issue 与 PR 欢迎:返工记录、故障回退、新的动效手法都可以沉淀进 `SKILL.md`。提交即表示同意以 CC0 释放。
+## Contributors
+
+- **Qwen4.0-Max** — craft, motion design & site implementation (agent)
+- **qingtengCHINA** — owner, direction & review
